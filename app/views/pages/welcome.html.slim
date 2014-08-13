@@ -1,0 +1,17 @@
+h1 Login
+.login
+  = link_to 'Log in to LinkedIn', user_omniauth_authorize_path(:linkedin)
+  /= link_to 'Log in to Twitter', user_omniauth_authorize_path(:twitter)
+  /= link_to 'Log in to Facebook', user_omniauth_authorize_path(:facebook)
+
+blockquote.twitter-tweet lang="en" 
+  p
+    | Seriously, come and join an awesome team at
+      a href="https://twitter.com/WeWork"  @WeWork
+    | I'm looking for a full stack developer. Apply here
+    a href="http://t.co/GtQ4MC7Gls"  http://t.co/GtQ4MC7Gls
+  | \&mdash; Jesse Middleton (@srcasm)
+  a href="https://twitter.com/srcasm/statuses/489805025292877824"  July 17, 2014
+script async="" charset="utf-8" src="//platform.twitter.com/widgets.js" 
+
+.fb-post data-href="https://www.facebook.com/hanjie.ji/posts/10152631876039680" data-width="500"
